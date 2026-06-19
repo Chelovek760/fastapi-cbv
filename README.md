@@ -1,8 +1,8 @@
 # fastapi-cbv-router
 
 [![CI](https://github.com/Chelovek760/fastapi-cbv/actions/workflows/ci.yml/badge.svg)](https://github.com/Chelovek760/fastapi-cbv/actions/workflows/ci.yml)
-[![PyPI version](https://img.shields.io/pypi/v/fastapi-cbv-router.svg)](https://pypi.org/project/fastapi-cbv-router/)
-[![Python versions](https://img.shields.io/pypi/pyversions/fastapi-cbv-router.svg)](https://pypi.org/project/fastapi-cbv-router/)
+[![PyPI version](https://img.shields.io/pypi/v/fastapi-cbv-router)](https://pypi.org/project/fastapi-cbv-router/)
+[![Python versions](https://img.shields.io/pypi/pyversions/fastapi-cbv-router)](https://pypi.org/project/fastapi-cbv-router/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 Class-based views (CBV) for FastAPI routers — a small, maintained drop-in
