@@ -6,7 +6,7 @@ authors = [{ name = "Vladimir Klychnikov" }]
 readme = "README.md"
 license = "MIT"
 license-files = ["LICENSE"]
-requires-python = ">=3.13"
+requires-python = ">=3.12"
 keywords = ["fastapi", "cbv", "class-based-views", "router", "dependency-injection"]
 classifiers = [
     "Development Status :: 4 - Beta",
@@ -16,6 +16,7 @@ classifiers = [
     "Operating System :: OS Independent",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
     "Typing :: Typed",
 ]
@@ -50,7 +51,7 @@ include = ["src/**/*.py", "src/**/py.typed"]
 [tool.ruff]
 line-length = 120
 indent-width = 4
-target-version = "py313"
+target-version = "py312"
 output-format = "grouped"
 
 lint.task-tags = ["TODO"]
@@ -101,7 +102,7 @@ convention = "google"
 suppress-dummy-args = true
 
 [tool.mypy]
-python_version = "3.13"
+python_version = "3.12"
 disallow_untyped_defs = true
 ignore_missing_imports = true
 show_error_codes = true
