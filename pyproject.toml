@@ -1,6 +1,6 @@
 [project]
 name = "fastapi-cbv-router"
-version = "0.1.0"
+version = "0.1.1"
 description = "Class-based views for FastAPI routers — a maintained, FastAPI 0.137+ compatible drop-in for fastapi_utils.cbv."
 authors = [{ name = "Vladimir Klychnikov" }]
 readme = "README.md"
